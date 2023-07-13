@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Notas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de estudante</h1>
+    </header>
+    <section>
+        <div>
+            Nome do Aluno: <input type="text" name="txt1" id="txt1" placeholder="digite nome do Aluno">
+            <p>
+                Nota: <input type="number" name="txt2" id="txt2" placeholder="digite nota do primeiro teste">
+                 <input type="number" name="txt3" id="txt3" placeholder="digite nota do segundo texte">
+
+            </p>
+            <select name="flist" id="flist" size="6" aria-placeholder="Nomes"> Nomes</select>
+            <select name="list" id="list" size="6">Notas</select>
+            <select name="inlist" id="inlist" size="6"></select>
+           <p>
+            <input type="button" value="Resultados" onclick="resultados()">
+           </p> 
+          
+        </div>
+        <div id="res">
+           
+
+        </div>
+    </section>
+    <footer>
+      <p>%zimcode-solucion</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

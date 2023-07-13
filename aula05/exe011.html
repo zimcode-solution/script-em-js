@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emimoz</title>
+</head>
+<body>
+    <h1>Sistema de imigracao</h1>
+    Pais:<input type="text" name="txtm" id="txtm">
+    <input type="button" value="estados" onclick="verificator()">
+    <div id="res">
+<script>
+    function verificator(){
+        var txt= document.getElementById('txtm')
+        var res = document.getElementById('res')
+        res.innerText=`vivendo em ${txt}`
+        if(txt== 'moza'){
+            res.innerHTML+='<p>voce e brasileiro</p>'
+        }else{
+            res.innerHTML+='<p>voce estrangeiro</p>'
+        }
+    }
+</script>
+    </div>
+
+    
+</body>
+</html>
